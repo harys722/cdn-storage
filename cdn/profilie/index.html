@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Profilie - Free Templates for Social Profiles</title>
+
+<!-- Favicon -->
+<link href="https://profilie.github.io/favicon.ico" rel="shortcut icon" />
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet" />
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #7fb3d5, #a9cce3, #d0eafc);
+    color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: clamp(3rem, 8vw, 6rem);
+    font-weight: 900;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #0ea5e9, #0284c7, #0369a1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 3s ease infinite;
+    line-height: 1.2;
+  }
+
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  p {
+    font-size: 1.25em;
+    max-width: 700px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    padding: 0 15px;
+    color: #333;
+  }
+
+  a.button {
+    padding: 15px 40px;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(135deg, #3b5998, #2d4a7a);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+
+  a.button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 24px rgba(0,0,0,0.3);
+    background: linear-gradient(135deg, #4a90e2, #357ABD);
+  }
+
+  @media(max-width: 600px) {
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+    }
+    p {
+      font-size: 1.1em;
+      margin-bottom: 30px;
+    }
+    a.button {
+      padding: 12px 24px;
+      font-size: 1em;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>Profilie</h1>
+
+<p>
+    A free pre-built templates for social profiles, portfolios & websites. Quickly create a sweet-looking website to highlight your social media presence.
+
+</p>
+
+<a href="https://profilie.github.io/" class="button">Take me there!</a>
+
+</body>
+</html>
